@@ -1,0 +1,31 @@
+/* .minus-icon {
+    display: none;
+  }
+  .info-open {
+      padding: 1rem 0 1.5rem 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .info-open {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: capitalize;
+        padding-bottom: 1rem;
+    }
+    .info-open {
+      display: none;
+    }
+    .question-btn {
+        font-size: 1.5rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        color: #c59d5f;
+        transition:  all 0.3s linear;
+      } */
+      table, th, td {
+        border:1px solid black;
+      }
+      table{
+        width:100%;
+      }
