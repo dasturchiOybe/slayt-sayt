@@ -1,3 +1,17 @@
+:root {
+  display: flex;
+  justify-content: center;
+}
+
+.info-open {
+  animation: 1s alternate rise;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(5vh);
+  }
+}
   html{
     font-size: 62.5%;
   }
@@ -8,10 +22,12 @@
   .minus-icon {
     display: none;
   }
+  .open-title {
+    text-transform: capitalize;
+  }
   .info-open {
       padding: 1rem 0 1.5rem 0;
       border-top: 1px solid rgba(0, 0, 0, 0.2);
-        /* display: flex; */
         justify-content: space-between;
         align-items: center;
         text-transform: capitalize;
@@ -30,7 +46,6 @@
       
       table, th, td {
         border:1px solid black;
-        /* max-width: 90%; */
       }
       th, td{
         text-align: center;
@@ -41,8 +56,8 @@
       h1, h2, h3, h4{
         text-align: center;
       }
-       /* p{
-        font-size: 3rem;
+      /* .info-open{
+        transition: all 2s ;
       } */
       text{
         font-size: 2rem;
