@@ -1,6 +1,7 @@
 const infoOpen = document.querySelectorAll('.info-open');
 const plus = document.querySelectorAll('.plus-icon');
 const minus = document.querySelectorAll('.minus-icon');
+const opening = document.querySelectorAll('.opening')
 
 infoOpen.forEach((question, index) => {
   const plusBtn = plus[index];
